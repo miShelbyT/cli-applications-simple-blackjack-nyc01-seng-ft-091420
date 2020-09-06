@@ -59,11 +59,12 @@ end
 
 def runner
   welcome
-  # first_hit = initial_round
-  # hit?(first_hit)
+  total = initial_round
+  until total = 21
+    hit?(total)
   # user_input = get_user_input
   #   if user_input == 's'
-  #     hit?(first_hit)
+  #     hit?(total)
   #   elsif user_input == 'h'
   #     deal_card
   #   end
