@@ -60,10 +60,9 @@ end
 def runner
   welcome
   total = initial_round
-#   until total > 21
-#     total = hit?(total)
-#   end
-#     if total > 21
-#     end_game(total)
-#   end
+  until total > 21
+   total = hit?(total)
+    if total > 21
+    end_game(total)
+ end
 end
