@@ -61,13 +61,13 @@ def runner
   welcome
   first_hit = initial_round
   hit?(first_hit)
-  # user_input = get_user_input
-  #   if user_input == 's'
-  #     hit?(total)
-  #   elsif user_input == 'h'
-  #     deal_card
-  #   end
-  #   if total > 21
-  #   end_game(total)
-  # end
+  user_input = get_user_input
+    if user_input == 's'
+      hit?(first_hit)
+    elsif user_input == 'h'
+      deal_card
+    end
+    if total > 21
+    end_game(total)
+  end
 end
