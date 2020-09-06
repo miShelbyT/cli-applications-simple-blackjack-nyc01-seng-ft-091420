@@ -60,7 +60,7 @@ end
 def runner
   welcome
   initial_round
-  # hit?(total)
+  hit?(total)
   # user_input = get_user_input
   #   if user_input == 's'
   #     hit?(total)
